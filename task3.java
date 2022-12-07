@@ -7,9 +7,9 @@ public class task3 {
         Scanner myScan = new Scanner(System.in);
         System.out.println("Добро пожаловать в калькулятор.");
         System.out.print("Введите первое число: ");
-        float num_a = myScan.nextInt();
+        float num_a = myScan.nextFloat();
         System.out.print("Введите второе число: ");
-        float num_b = myScan.nextInt();
+        float num_b = myScan.nextFloat();
         System.out.print("Выберите операцию из предложенных: + - / * : ");
         char operation = myScan.next().charAt(0);
         float res;
